@@ -10,4 +10,4 @@
 require '../vendor/autoload.php';
 
 $init = new App\Controller\IndexController();
-$init->index();
+echo $init->index();
